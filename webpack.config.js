@@ -23,12 +23,10 @@ module.exports = (env, argv) => {
                     }
                 },
                 {
-                    test: /\.(js)$/,
+                    test: /\.(js|vue)$/,
                     exclude: /node_modules/,
-                    use: [
-                        "babel-loader",
-                        "eslint-loader"
-                    ]
+                    enforce: 'pre',
+                    loader: "eslint-loader"
                 },
                 {
                     test: /\.html$/,

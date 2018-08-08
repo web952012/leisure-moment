@@ -13,8 +13,10 @@ module.exports = {
   plugins: ["vue"],
   // add your custom rules here
   rules: {
+    "no-console": 0,
     "prettier/prettier": ["error", { trailingComma: "es5", printWidth: "100" }],
     "no-new": 0,
+    "camelcase": 0,
     // don't require .vue extension when importing
     "import/extensions": [
       "off",

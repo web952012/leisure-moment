@@ -1,12 +1,12 @@
 <template>
-
+  <div></div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      value: 3
+      value: 3,
     };
   },
   mounted() {

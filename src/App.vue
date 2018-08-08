@@ -6,10 +6,18 @@
 </template>
 
 <script>
-import './styles/index.scss'
+import "./styles/index.scss";
 
+let a = 2;
+a = 1;
+console.log(a);
 export default {
-}
+  data() {
+    return {
+      a,
+    };
+  },
+};
 </script>
 
 <style lang="scss">
