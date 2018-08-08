@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "env"
+  ],
+  "plugins": [
+    ["import", {
+      "libraryName": "vant",
+      "libraryDirectory": "es",
+      "style": true
+    }],
+    "syntax-dynamic-import",
+    "transform-runtime"
+  ]
+}
