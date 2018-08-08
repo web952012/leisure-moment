@@ -1,14 +1,12 @@
-<template><!-- <van-rate v-model="value" /> -->
-  <div>
-    <van-rate v-model="value" />
-  </div>
+<template>
+
 </template>
 
 <script>
 export default {
   data() {
     return {
-      value: 3,
+      value: 3
     };
   },
   mounted() {

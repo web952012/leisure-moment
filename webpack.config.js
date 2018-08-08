@@ -23,7 +23,7 @@ module.exports = (env, argv) => {
                     }
                 },
                 {
-                    test: /\.(vue|js)$/,
+                    test: /\.(js)$/,
                     exclude: /node_modules/,
                     use: [
                         "babel-loader",
