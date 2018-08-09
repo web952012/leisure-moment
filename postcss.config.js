@@ -1,7 +1,15 @@
+/**
+ * Date              Author           Des
+ *----------------------------------------------
+ * 18-3-22           gongtiexin       postcss config
+ * */
+
 module.exports = {
   plugins: {
-    'autoprefixer': {
-      browsers: ['Android >= 4.0', 'iOS >= 7']
-    }
-  }
-}
+    "postcss-cssnext": {},
+    "css-declaration-sorter": {
+      order: "concentric-css",
+    },
+    "css-mqpacker": {},
+  },
+};
