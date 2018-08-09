@@ -8,8 +8,9 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "test",
-      component: () => import(/* webpackChunkName: "route-test" */ "@/components/test"),
+      name: "HelloWorld",
+      component: () =>
+        import(/* webpackChunkName: "route-HelloWorld" */ "../components/hello-world"),
     },
   ],
 });

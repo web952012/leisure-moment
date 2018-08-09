@@ -1,12 +1,18 @@
 import Vue from "vue";
-import { Rate } from "vant";
-import App from "./App.vue";
+import moment from "moment";
+import App from "./components/app/app";
 import router from "./router";
 import store from "./store";
+import "normalize.css";
+
+/**
+ * moment时区设置为中国
+ */
+moment.locale("zh-cn");
 
 Vue.config.productionTip = false;
 
-Vue.use(Rate);
+/* eslint-disable no-new */
 new Vue({
   el: "#app",
   router,
